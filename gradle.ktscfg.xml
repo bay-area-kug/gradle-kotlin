@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KotlinScriptDefinitions>
+  <script>
+    <name>Kotlin build script</name>
+    <files>.*\.kts</files>
+    <classpath>
+      <path>/Users/dannyt/.gradle/wrapper/dists/gradle-script-kotlin-1.0.0-20160520213542+0000-bin/ktzlkwqfzbjo4dja2k7x7fk6/gradle-1.0.0-20160520213542+0000/lib/ant-1.9.6.jar</path>
+      <path>/Users/dannyt/.gradle/wrapper/dists/gradle-script-kotlin-1.0.0-20160520213542+0000-bin/ktzlkwqfzbjo4dja2k7x7fk6/gradle-1.0.0-20160520213542+0000/lib/ant-launcher-1.9.6.jar</path>
+      <path>/Users/dannyt/.gradle/wrapper/dists/gradle-script-kotlin-1.0.0-20160520213542+0000-bin/ktzlkwqfzbjo4dja2k7x7fk6/gradle-1.0.0-20160520213542+0000/lib/kotlin-reflect-1.1.0-dev-372.jar</path>
+      <path>/Users/dannyt/.gradle/wrapper/dists/gradle-script-kotlin-1.0.0-20160520213542+0000-bin/ktzlkwqfzbjo4dja2k7x7fk6/gradle-1.0.0-20160520213542+0000/lib/kotlin-stdlib-1.1.0-dev-372.jar</path>
+    </classpath>
+    <parameters>
+      <scriptParam>
+        <name>_project_hidden_</name>
+        <type>org.gradle.api.Project</type>
+      </scriptParam>
+    </parameters>
+    <supertypes>
+      <type>org.gradle.script.lang.kotlin.KotlinBuildScript</type>
+    </supertypes>
+    <superclassParameters>
+      <scriptParamToSuperclassParam>
+        <scriptParamName>_project_hidden_</scriptParamName>
+        <superclassParamType>org.gradle.api.Project</superclassParamType>
+      </scriptParamToSuperclassParam>
+    </superclassParameters>
+  </script>
+</KotlinScriptDefinitions>
